@@ -1,0 +1,14 @@
+<Solution>
+  <Folder Name="/01-OllamaSharp.Basics/">
+    <Project Path="01-OllamaSharp.Basics/Balta.OllamaSharp.Basics.csproj" />
+  </Folder>
+  <Folder Name="/02-PgVector.EFCore/">
+    <Project Path="02-PgVector.EFCore/Balta.PgVector.EFCore.csproj" />
+  </Folder>
+  <Folder Name="/03-MicrosoftExtensionsAI.Sample/">
+    <Project Path="03-MicrosoftExtensionsAI.Sample/Balta.MicrosoftExtensionsAI.Sample.csproj" />
+  </Folder>
+  <Folder Name="/04-SemanticKernel.RagAgent/">
+    <Project Path="04-SemanticKernel.RagAgent/Balta.SemanticKernel.RagAgent.csproj" />
+  </Folder>
+</Solution>

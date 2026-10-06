@@ -1,0 +1,11 @@
+{
+  "context": "Reinício de turno e levantamento de status do repositório",
+  "inspected_references": [
+    "tools/knowledge-extractor/src/knowledge_extractor/file_normalizer.py",
+    "README.md",
+    ".antigravity/AGENTS.md"
+  ],
+  "identified_patterns": "normalizer-modulo-xxyy, uv package management, scaffold modular",
+  "adherence_mode": "follow_standard",
+  "justification": null
+}

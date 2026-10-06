@@ -1,0 +1,662 @@
+{
+  "schema_version": 1,
+  "kit_sha": "4612493",
+  "files": {
+    ".kilocode/agents/agentic-engineer.md": {
+      "agent": "agentic-engineer",
+      "sha256": "2e7ceccb160113071702fb9b3e8e00b8512119ca7ddc761f087d992a04ae3020"
+    },
+    ".cursor/rules/infra-ops.mdc": {
+      "agent": "infra-ops",
+      "sha256": "6bb8c19700ab40d666ff447ee5fd698e465af70cafdc3681d65edad95fe01549"
+    },
+    ".qwen/skills/marketing-writer/SKILL.md": {
+      "agent": "marketing-writer",
+      "sha256": "062ce2ebea9a884bd797d451a995ec9cc000c30b0c6b212793be0b69a59f6c7b"
+    },
+    ".cursor/rules/vibecode.mdc": {
+      "agent": "vibecode",
+      "sha256": "a67798d980568db8b1b81a511fa4d53fc123474588b06246f7a418f6ef521316"
+    },
+    ".agent-kit/content/agents/product-delivery-manager.agent.md": {
+      "agent": "product-delivery-manager",
+      "sha256": "9b8d1a2124f6fb75593746152fb4a534607e57bdc59d9d800e344b6eff8a9958"
+    },
+    ".github/agents/ai-designer.agent.md": {
+      "agent": "ai-designer",
+      "sha256": "4226f4ad05e12848968d30797ebc414da6a5878bc2259ec76ea3809d4097f379"
+    },
+    ".cursor/skills/bi-analyst/SKILL.md": {
+      "agent": "bi-analyst",
+      "sha256": "cf3bf672d78847a03de686d48480e44ddc9cb393e584effb420bc155694bb741"
+    },
+    ".github/agents/qa-test-engineer.agent.md": {
+      "agent": "qa-test-engineer",
+      "sha256": "d3ce1ff6890800a5775be47d3bcec303bddeb2d187dadb6499f71adee5016f35"
+    },
+    ".qwen/skills/ml-engineer/SKILL.md": {
+      "agent": "ml-engineer",
+      "sha256": "c2d16a6daadac4985691b1dc1cc6514cb8a4e21fbd6625f984a87b5e187d1e0d"
+    },
+    ".agent-kit/content/agents/data-engineer.agent.md": {
+      "agent": "data-engineer",
+      "sha256": "e048241dcf60253d4e15d4fb21044c07d73722687c96598f106c3b5c8e44a043"
+    },
+    ".cursor/skills/ai-designer/SKILL.md": {
+      "agent": "ai-designer",
+      "sha256": "3c9e4da831070b5a6acdaf7cd7ec6ed1b0d2897af1dfe3c65e4f180cc248a036"
+    },
+    ".agent-kit/content/agents/security-engineer.agent.md": {
+      "agent": "security-engineer",
+      "sha256": "eeaf1c64dac7fd5f4e8c338bebd56c86ac25bf0f5534e208587ccf2744e2cfc4"
+    },
+    ".cursor/skills/technical-writer/SKILL.md": {
+      "agent": "technical-writer",
+      "sha256": "9e424515612c5c2a5f935793c77acc87fa12450d2e30a9e71e7bfefb00601709"
+    },
+    ".agent-kit/content/agents/scout-architect.agent.md": {
+      "agent": "scout-architect",
+      "sha256": "16e086515fab4964adc4cc2c5850d3938ac4b74a6842eed8f13b4d44eeeaf82c"
+    },
+    ".cursor/skills/ml-engineer/SKILL.md": {
+      "agent": "ml-engineer",
+      "sha256": "2f41259196d56e8a1663b3bc3e7f28d659ce9d5efecf2cdd2d6339b438faadfc"
+    },
+    ".github/agents/software-architect.agent.md": {
+      "agent": "software-architect",
+      "sha256": "c7b9a27dd600f11f116287bda68a80c82f2c01ac9fa38ee8e5d82fc620e1db4e"
+    },
+    ".agent-kit/content/stacks/agentic.md": {
+      "agent": "agentic-engineer",
+      "sha256": "052a0c5a0820cb45aca2560af991b46974ae3724cbc5c6db98da13cdc9fe2fe6"
+    },
+    ".agent-kit/content/stacks/video.md": {
+      "agent": "video-specialist",
+      "sha256": "69db539f47a6d5bf1a013273ef3c3dcb854810d61d68b38809debca29ebd94aa"
+    },
+    ".cursor/rules/sre.mdc": {
+      "agent": "sre",
+      "sha256": "2a3885211bc7a1e5c3afe81499266db5bcac02f8937af07d63a0cb2d8bdda882"
+    },
+    ".cursor/skills/audit-engineer/SKILL.md": {
+      "agent": "audit-engineer",
+      "sha256": "fa5081271ca4bf1da19da316552b7ef791bf8e5a08bb0513ef42a275c3cf5086"
+    },
+    ".kilocode/agents/video-specialist.md": {
+      "agent": "video-specialist",
+      "sha256": "8e8ff5ec55457660193f84c7f0388c8ec429cf4e46e5a5573ccb78cd558dff3e"
+    },
+    ".kilocode/agents/infra-ops.md": {
+      "agent": "infra-ops",
+      "sha256": "6c0521ef4a3fee13a8f661e31581ef424abb0f54c02f4d926f4bf2a263a9ed54"
+    },
+    ".cursor/skills/mobile-engineer/SKILL.md": {
+      "agent": "mobile-engineer",
+      "sha256": "4bea88c71840ce384902e9caf7229bc8e40eecee536d58a83bc91a1103d107d3"
+    },
+    ".github/agents/technical-writer.agent.md": {
+      "agent": "technical-writer",
+      "sha256": "637a8a6c7ec60d4de3fa53488dea6ac753cebd66e3e1950209484abcf464443b"
+    },
+    ".kilocode/agents/technical-writer.md": {
+      "agent": "technical-writer",
+      "sha256": "5ffbd75b6e7b1b9bcd28d212b411ac85ebcacaed57ec0fbd61f69471c8bef492"
+    },
+    ".agent-kit/content/agents/audit-engineer.agent.md": {
+      "agent": "audit-engineer",
+      "sha256": "c2141201c9693f8e64199305b77b4f99dcf9dd0caad830646ca164caadaeb9d1"
+    },
+    ".cursor/skills/dataops-engineer/SKILL.md": {
+      "agent": "dataops-engineer",
+      "sha256": "664661b54f9cc0eaf5d7c3dac3e642571e01c9eacdf06645905e99b4f89e340c"
+    },
+    ".kilocode/agents/sre.md": {
+      "agent": "sre",
+      "sha256": "90b5bc4f3c6e93608c34c5bcf04085f00cdceff16ee359741bca240a2a7305a1"
+    },
+    ".cursor/rules/qa-test-engineer.mdc": {
+      "agent": "qa-test-engineer",
+      "sha256": "11338db9a0c67ad25578d55031f824c2de15f197586f389b41558c8e352522f5"
+    },
+    ".agent-kit/content/agents/dataops-engineer.agent.md": {
+      "agent": "dataops-engineer",
+      "sha256": "9880305085060e5de391ede136c964eb66704dd1c0ad9dccf1c7a595e3889c12"
+    },
+    ".kilocode/agents/ai-designer.md": {
+      "agent": "ai-designer",
+      "sha256": "9606d4a64eceff5e5aee9afc1ddbea5cbe580bfd2d20d1eca3db67332358c439"
+    },
+    ".agent-kit/content/agents/qa-test-engineer.agent.md": {
+      "agent": "qa-test-engineer",
+      "sha256": "d3ce1ff6890800a5775be47d3bcec303bddeb2d187dadb6499f71adee5016f35"
+    },
+    ".github/agents/ml-engineer.agent.md": {
+      "agent": "ml-engineer",
+      "sha256": "7e95969bbb68a2b1e8f24e3241058721e2b802c028847e1560e7fedcdb4c4287"
+    },
+    ".github/agents/video-specialist.agent.md": {
+      "agent": "video-specialist",
+      "sha256": "37c3e99499badda290a116ab98aec553ecb8df59258bcbb364deb43645fe1480"
+    },
+    ".cursor/skills/sre/SKILL.md": {
+      "agent": "sre",
+      "sha256": "6f55a7960a5d105862d2d92a8ee25bab812e1fa9a8a48aa70215898c477b4e51"
+    },
+    ".qwen/skills/scout-architect/SKILL.md": {
+      "agent": "scout-architect",
+      "sha256": "a7375cafeffb64dd44613b62f1f428e97118afffb471f3f01c1d6d876a938501"
+    },
+    ".qwen/skills/data-architect/SKILL.md": {
+      "agent": "data-architect",
+      "sha256": "2e9206ece92a33e2821b868e1a6b01ee7d582f11b539c3c6610a9210224c193b"
+    },
+    ".cursor/skills/scout-architect/SKILL.md": {
+      "agent": "scout-architect",
+      "sha256": "a7375cafeffb64dd44613b62f1f428e97118afffb471f3f01c1d6d876a938501"
+    },
+    ".agent-kit/content/stacks/devops.md": {
+      "agent": "devops-engineer",
+      "sha256": "f61e8a43d74d7c0ac69fbc5d4338400819797b99c831482c7aa99b89dc92c51e"
+    },
+    ".qwen/skills/audit-engineer/SKILL.md": {
+      "agent": "audit-engineer",
+      "sha256": "fa5081271ca4bf1da19da316552b7ef791bf8e5a08bb0513ef42a275c3cf5086"
+    },
+    ".cursor/skills/vibecode/SKILL.md": {
+      "agent": "vibecode",
+      "sha256": "8e46ffb16dfb6a192754b479e576519edd5053448f6493920a756e585126a551"
+    },
+    ".agent-kit/content/agents/marketing-writer.agent.md": {
+      "agent": "marketing-writer",
+      "sha256": "c3b64ed8acae3c52d826bec246a53cab42b5c95cdd1b218b8b04bc19bbeb4b93"
+    },
+    ".cursor/skills/devops-engineer/SKILL.md": {
+      "agent": "devops-engineer",
+      "sha256": "491a72125e7cfc8dfd3244017239cfaccdc59faf8839b5519a3f14b1123f353d"
+    },
+    ".kilocode/agents/data-architect.md": {
+      "agent": "data-architect",
+      "sha256": "c9f3d840d8920f29ca197b347a6ba6b1833506cecb27671f74f99c4beb885aa4"
+    },
+    ".agent-kit/content/stacks/data-engineering.md": {
+      "agent": "data-engineer",
+      "sha256": "cd9f15299704be2fc3e654ddee45668f762f23baec488dd64c2fb2131d4fa306"
+    },
+    ".qwen/skills/n8n-automation/SKILL.md": {
+      "agent": "n8n-automation",
+      "sha256": "73c9ffcc609ebc5a4f97c97040a3bfb7389fd3d27c1ad5f732c86199c24aebe3"
+    },
+    ".agent-kit/content/agents/software-engineer.agent.md": {
+      "agent": "software-engineer",
+      "sha256": "287f8750abf8a1663456cb582b4324cc3fc4c786a17225d8d5a4d6c8b2e0780f"
+    },
+    ".cursor/rules/data-architect.mdc": {
+      "agent": "data-architect",
+      "sha256": "966024013551c7330098779eed206ee717f13ce0ffd6978f61452ec51826f94a"
+    },
+    ".cursor/rules/n8n-automation.mdc": {
+      "agent": "n8n-automation",
+      "sha256": "63691ac25bc34759f738cbb5bfd43d56abd228137775086f77199e322dfd8b75"
+    },
+    ".cursor/rules/marketing-writer.mdc": {
+      "agent": "marketing-writer",
+      "sha256": "d65978e5a9a9d9958f0a4be7237e9123049cacd6366ed671dedfe395de86c018"
+    },
+    ".agent-kit/content/stacks/bi.md": {
+      "agent": "bi-analyst",
+      "sha256": "94bd0796bfd7a8502af7f746e1aa14b18251fcb88ccb50cd302911acf48c81a2"
+    },
+    ".cursor/rules/dataops-engineer.mdc": {
+      "agent": "dataops-engineer",
+      "sha256": "e568b4f302f626a1180dc4eb33c185ac8109309990ef2d12320e5e514e114d71"
+    },
+    ".agent-kit/content/agents/bi-analyst.agent.md": {
+      "agent": "bi-analyst",
+      "sha256": "44fac6110f67ca12d9487ebe807360f6b8e93a314c3f1da89c1f73da550c91b3"
+    },
+    ".qwen/skills/product-delivery-manager/SKILL.md": {
+      "agent": "product-delivery-manager",
+      "sha256": "07a966e01a64f64637cc632d60d96b6f94e51075ce6da0c690d6a07f1d93ade6"
+    },
+    ".qwen/skills/agentic-engineer/SKILL.md": {
+      "agent": "agentic-engineer",
+      "sha256": "a2b7470f6159c9fe24c1505ee726a0e2d1ddbf227d3c1234c0132da861cda436"
+    },
+    ".agent-kit/content/stacks/pre-sales.md": {
+      "agent": "pre-sales-architect",
+      "sha256": "e712df8bc0167f9c593adf25504ee01cf99e06ec95006cd172bbcc755cbd12fb"
+    },
+    ".qwen/skills/data-engineer/SKILL.md": {
+      "agent": "data-engineer",
+      "sha256": "8bdf6ce9f333e8d1711bb8f258a335e6765de644072312b1e855e946abad8a1f"
+    },
+    ".agent-kit/content/agents/sre.agent.md": {
+      "agent": "sre",
+      "sha256": "815f1e8118ed6b3ad25964daaef21e51e8b4c452f35416152305315f1a1f5910"
+    },
+    ".cursor/rules/data-engineer.mdc": {
+      "agent": "data-engineer",
+      "sha256": "4f5e0d76a62185beb640cd0082214d5b4eb72f45e0d6f8f0354f0b5daac0ec7a"
+    },
+    ".cursor/skills/marketing-writer/SKILL.md": {
+      "agent": "marketing-writer",
+      "sha256": "c30c74e4d11130516344af58c3bd4f53bb5f5a391094a050dfadc1fda7769a5d"
+    },
+    ".cursor/rules/software-architect.mdc": {
+      "agent": "software-architect",
+      "sha256": "54ceaa2b05b16e82fddddf119eed71e79b156fa246643fac57a1f0adbee7d024"
+    },
+    ".cursor/skills/video-specialist/SKILL.md": {
+      "agent": "video-specialist",
+      "sha256": "df192fea3e92f28e1fd962a32783d6ecf931f15e64ac3b8c0f94620dd192406e"
+    },
+    ".kilocode/agents/pre-sales-architect.md": {
+      "agent": "pre-sales-architect",
+      "sha256": "ab0fd7da835bc2c78461615882055df35ce85708b7509e0d7a7dc0c04efed411"
+    },
+    ".cursor/skills/data-engineer/SKILL.md": {
+      "agent": "data-engineer",
+      "sha256": "7e7867d1ad081e08c7a00e531dd938a810a0bc167499c91a6e47e37ed285f013"
+    },
+    ".agent-kit/content/stacks/product-management.md": {
+      "agent": "product-delivery-manager",
+      "sha256": "44ef3f0c35bd6e79fa9e6d7f68a8679a8c12fdb50a5bf43f195b40a915f27a08"
+    },
+    ".kilocode/agents/software-engineer.md": {
+      "agent": "software-engineer",
+      "sha256": "59d2dc52aafcc58be57f6a3cf7b8fc272ec538e8bee501b45bd1f73e615ef2de"
+    },
+    ".qwen/skills/infra-ops/SKILL.md": {
+      "agent": "infra-ops",
+      "sha256": "8a330320282725a900a5819e2299495a4cffdf560bda5dbeb54710558b0dcd87"
+    },
+    ".github/agents/sre.agent.md": {
+      "agent": "sre",
+      "sha256": "815f1e8118ed6b3ad25964daaef21e51e8b4c452f35416152305315f1a1f5910"
+    },
+    ".kilocode/agents/bi-analyst.md": {
+      "agent": "bi-analyst",
+      "sha256": "eaa8739559294afb1d3b7c9a075b37abb3f7a08705659c5973457746cb8a5c22"
+    },
+    ".cursor/skills/n8n-automation/SKILL.md": {
+      "agent": "n8n-automation",
+      "sha256": "1b2fa361ecf9098c51403e910e51a2dfeabdacbeca8c8efa0beea20da9eab146"
+    },
+    ".agent-kit/content/stacks/design-systems.md": {
+      "agent": "ai-designer",
+      "sha256": "3fc5c32b50fa45209ab683e30a9e3c6bd6f3957969594b3f8db343f679e65e45"
+    },
+    ".github/agents/vibecode.agent.md": {
+      "agent": "vibecode",
+      "sha256": "09cd121150855205459228d9822465b27419d01313e8b001157127164c9e158c"
+    },
+    ".cursor/skills/product-delivery-manager/SKILL.md": {
+      "agent": "product-delivery-manager",
+      "sha256": "78578d40f74f65f16c79e7de51fe78d0a0ab7362a0374c13c69b1d937914dbcd"
+    },
+    ".cursor/rules/video-specialist.mdc": {
+      "agent": "video-specialist",
+      "sha256": "44c20be725451696f8ef825e30b710f2ecae034dbdc40bc2a0df286d81f39986"
+    },
+    ".kilocode/agents/mobile-engineer.md": {
+      "agent": "mobile-engineer",
+      "sha256": "74c1bfc34daabe33975b937d411f64fc8388763608e9f335c710bcbf6b66335b"
+    },
+    ".agent-kit/content/stacks/site-reliability.md": {
+      "agent": "sre",
+      "sha256": "44b356f26d22c05a4721586c203030cfaceb4a2913d76a38a3f28ea52ef37cda"
+    },
+    ".qwen/skills/software-architect/SKILL.md": {
+      "agent": "software-architect",
+      "sha256": "2403b89c7fb67c4543ae17dc05bd59d5bc0dbde1506e6b19389cc1712649dcd7"
+    },
+    ".kilocode/agents/scout-architect.md": {
+      "agent": "scout-architect",
+      "sha256": "a7375cafeffb64dd44613b62f1f428e97118afffb471f3f01c1d6d876a938501"
+    },
+    ".github/agents/product-delivery-manager.agent.md": {
+      "agent": "product-delivery-manager",
+      "sha256": "9b8d1a2124f6fb75593746152fb4a534607e57bdc59d9d800e344b6eff8a9958"
+    },
+    ".qwen/skills/sre/SKILL.md": {
+      "agent": "sre",
+      "sha256": "c9c361bbce75f80f0854a1c10dbf2ec19693962809613043353b7aaed61831ec"
+    },
+    ".cursor/skills/data-architect/SKILL.md": {
+      "agent": "data-architect",
+      "sha256": "41149211befe4098d84b67f9b2c7958fcb4f83bbd6a4b964de3e7aab7ff87ffa"
+    },
+    ".cursor/skills/agentic-engineer/SKILL.md": {
+      "agent": "agentic-engineer",
+      "sha256": "66687e0324de1a89720ed5be59be7350a68ebef885298f0f8a62a5b9cdafaf25"
+    },
+    ".github/agents/marketing-writer.agent.md": {
+      "agent": "marketing-writer",
+      "sha256": "c3b64ed8acae3c52d826bec246a53cab42b5c95cdd1b218b8b04bc19bbeb4b93"
+    },
+    ".agent-kit/content/agents/devops-engineer.agent.md": {
+      "agent": "devops-engineer",
+      "sha256": "43c5c9c3c158743712d997e3a9f092a5a90b210abc823ef54fae57efec29b50c"
+    },
+    ".cursor/skills/pre-sales-architect/SKILL.md": {
+      "agent": "pre-sales-architect",
+      "sha256": "ab0fd7da835bc2c78461615882055df35ce85708b7509e0d7a7dc0c04efed411"
+    },
+    ".kilocode/agents/data-engineer.md": {
+      "agent": "data-engineer",
+      "sha256": "8374c71796b0948622955674d0513e5f5a196bbaec56d731cd0da0096acf0964"
+    },
+    ".kilocode/agents/dataops-engineer.md": {
+      "agent": "dataops-engineer",
+      "sha256": "22bc6f126f718b63acec17c8d96f26ccf07f9cc5ee2d8df3720a30e765904edb"
+    },
+    ".agent-kit/content/agents/mobile-engineer.agent.md": {
+      "agent": "mobile-engineer",
+      "sha256": "8c899d2d39f88caf4de8af1ded767cce2e760a12c5a86fb427f36253593078eb"
+    },
+    ".cursor/rules/product-delivery-manager.mdc": {
+      "agent": "product-delivery-manager",
+      "sha256": "fbf4c1e687f3155d0e53baf6759cd509c39673ea9ac3ce5485052a85812f9060"
+    },
+    ".agent-kit/content/agents/software-architect.agent.md": {
+      "agent": "software-architect",
+      "sha256": "c7b9a27dd600f11f116287bda68a80c82f2c01ac9fa38ee8e5d82fc620e1db4e"
+    },
+    ".cursor/rules/security-engineer.mdc": {
+      "agent": "security-engineer",
+      "sha256": "ddf10b96e70518ebcab91c4e5129e6c51ed2577e64ea45c0001ff5af8138f05e"
+    },
+    ".qwen/skills/software-engineer/SKILL.md": {
+      "agent": "software-engineer",
+      "sha256": "f472db348a5cce32960f5ca29b1511b8f623771603b94f90699c8f4049d96432"
+    },
+    ".github/agents/bi-analyst.agent.md": {
+      "agent": "bi-analyst",
+      "sha256": "44fac6110f67ca12d9487ebe807360f6b8e93a314c3f1da89c1f73da550c91b3"
+    },
+    ".github/agents/audit-engineer.agent.md": {
+      "agent": "audit-engineer",
+      "sha256": "c2141201c9693f8e64199305b77b4f99dcf9dd0caad830646ca164caadaeb9d1"
+    },
+    ".agent-kit/content/agents/technical-writer.agent.md": {
+      "agent": "technical-writer",
+      "sha256": "637a8a6c7ec60d4de3fa53488dea6ac753cebd66e3e1950209484abcf464443b"
+    },
+    ".github/agents/infra-ops.agent.md": {
+      "agent": "infra-ops",
+      "sha256": "92efeff32b07f639bf8cb98af35e8b8f9fa93f6035a2e8f319cae5964ffaa2d7"
+    },
+    ".cursor/rules/ml-engineer.mdc": {
+      "agent": "ml-engineer",
+      "sha256": "99fe9bc541152f6ca0d104b0d1acaa2ca8bc83bcaa82167ce5b41dc67a16608c"
+    },
+    ".kilocode/agents/devops-engineer.md": {
+      "agent": "devops-engineer",
+      "sha256": "8054e92720fd2ff95855fcd0746203b03d969f832a7884c060f29d456651bad7"
+    },
+    ".agent-kit/content/stacks/dataops.md": {
+      "agent": "dataops-engineer",
+      "sha256": "1882adbdfaab7b6bcc7c702d2d0e247a510b25a6fc09187715621cd8f07dd14c"
+    },
+    ".cursor/rules/agentic-engineer.mdc": {
+      "agent": "agentic-engineer",
+      "sha256": "97d86e2c4e48072fefcb05fd6356e0e50f9e5d84c61b567e7459498d8a4ae2a4"
+    },
+    ".github/agents/devops-engineer.agent.md": {
+      "agent": "devops-engineer",
+      "sha256": "43c5c9c3c158743712d997e3a9f092a5a90b210abc823ef54fae57efec29b50c"
+    },
+    ".cursor/rules/pre-sales-architect.mdc": {
+      "agent": "pre-sales-architect",
+      "sha256": "ab0fd7da835bc2c78461615882055df35ce85708b7509e0d7a7dc0c04efed411"
+    },
+    ".agent-kit/content/stacks/mobile.md": {
+      "agent": "mobile-engineer",
+      "sha256": "03deb0e4c08795f75417a0f23da03d2267efee13cfcb74c1478298a4d06a0e1a"
+    },
+    ".agent-kit/content/agents/video-specialist.agent.md": {
+      "agent": "video-specialist",
+      "sha256": "37c3e99499badda290a116ab98aec553ecb8df59258bcbb364deb43645fe1480"
+    },
+    ".github/agents/software-engineer.agent.md": {
+      "agent": "software-engineer",
+      "sha256": "287f8750abf8a1663456cb582b4324cc3fc4c786a17225d8d5a4d6c8b2e0780f"
+    },
+    ".kilocode/agents/security-engineer.md": {
+      "agent": "security-engineer",
+      "sha256": "a038006fba0c7bbfd85c58a5af0bdbbe4386fb0be82680db585cd798f048bd7d"
+    },
+    ".qwen/skills/pre-sales-architect/SKILL.md": {
+      "agent": "pre-sales-architect",
+      "sha256": "ab0fd7da835bc2c78461615882055df35ce85708b7509e0d7a7dc0c04efed411"
+    },
+    ".cursor/rules/audit-engineer.mdc": {
+      "agent": "audit-engineer",
+      "sha256": "fa5081271ca4bf1da19da316552b7ef791bf8e5a08bb0513ef42a275c3cf5086"
+    },
+    ".cursor/skills/infra-ops/SKILL.md": {
+      "agent": "infra-ops",
+      "sha256": "51695daa3de188c13707383c2736b3c72d4ceadd0fc4ece2868ee2856c774c71"
+    },
+    ".kilocode/agents/software-architect.md": {
+      "agent": "software-architect",
+      "sha256": "adc57664b9de4e41857a3034f348076ed8201a5e1dfe9868d6b1b8ba89ebd975"
+    },
+    ".cursor/rules/scout-architect.mdc": {
+      "agent": "scout-architect",
+      "sha256": "b4e7ad81d6fb79a1d3a1cb33bdcaafefbe133ba1fa4bc98e7135ab2532573362"
+    },
+    ".cursor/rules/technical-writer.mdc": {
+      "agent": "technical-writer",
+      "sha256": "e0179ddb38398bde78fad869b5b2e1c727e33d9192359abb9a73e529315dbfd7"
+    },
+    ".agent-kit/content/stacks/quality-assurance.md": {
+      "agent": "qa-test-engineer",
+      "sha256": "53e1b1026f4a43e1f4d8cef8d0ffaa20de610728cbcf34739d999676ea42612f"
+    },
+    ".qwen/skills/technical-writer/SKILL.md": {
+      "agent": "technical-writer",
+      "sha256": "461ea49ebc33f8e8ed2ca8895d9831456fff8f32b4064decbafd56b7bc088492"
+    },
+    ".kilocode/agents/vibecode.md": {
+      "agent": "vibecode",
+      "sha256": "fe8f93ce157ee59e54a5b9ad9fd66c7a2c1ffbdc606ca85ce0354d943816cea7"
+    },
+    ".cursor/skills/qa-test-engineer/SKILL.md": {
+      "agent": "qa-test-engineer",
+      "sha256": "97a0a31c4f4743ec2380e0418f98847b0a608dd3e29eb3566d859f5758335752"
+    },
+    ".kilocode/agents/ml-engineer.md": {
+      "agent": "ml-engineer",
+      "sha256": "46d0e73dca5ef54d8877c8e9f450597134bc62a51eec40c7a1062d0fa59f132b"
+    },
+    ".qwen/skills/dataops-engineer/SKILL.md": {
+      "agent": "dataops-engineer",
+      "sha256": "cb11f198638a43857cec9a2eca24eff89ff258de53b737c310ce25d46a0805b1"
+    },
+    ".kilocode/agents/qa-test-engineer.md": {
+      "agent": "qa-test-engineer",
+      "sha256": "35788dd5460c3e8c1c0655f32ce5d96e26bbe3f1cbb56c4f8133f67853fdc423"
+    },
+    ".cursor/skills/software-engineer/SKILL.md": {
+      "agent": "software-engineer",
+      "sha256": "bfb8ce021bae767656e36c80a4bf00ded4d7ccce41af4c2c5cfe6041849f97d9"
+    },
+    ".cursor/rules/software-engineer.mdc": {
+      "agent": "software-engineer",
+      "sha256": "4f2cb0eeac46a3ccb3b54de93318a26bf5ac75d83e4914a5f8b724c1366d9943"
+    },
+    ".cursor/rules/bi-analyst.mdc": {
+      "agent": "bi-analyst",
+      "sha256": "2415283ad08bb69bc8f7ff2ddf3bef7adb2d4d253596c5ddec1ad27227da9f87"
+    },
+    ".qwen/skills/ai-designer/SKILL.md": {
+      "agent": "ai-designer",
+      "sha256": "7922339e9e78894c252f49f775b4f10575eef18adde847e2f297b7534a2fc803"
+    },
+    ".qwen/skills/bi-analyst/SKILL.md": {
+      "agent": "bi-analyst",
+      "sha256": "e3bb6a7964ead16fc730946229ddc768a0836d4145d61267055efdc8a2105ad7"
+    },
+    ".agent-kit/content/stacks/infra-ops.md": {
+      "agent": "infra-ops",
+      "sha256": "5ddcf5885092d2609ea0c0a0c08fc1d8e72adcb4fb04d5f0b860ab60cb441486"
+    },
+    ".github/agents/n8n-automation.agent.md": {
+      "agent": "n8n-automation",
+      "sha256": "7c0109463bebd311ca872b4d33f05ff21c5b2b8af356d6f124985d6cd300fb79"
+    },
+    ".agent-kit/content/stacks/security.md": {
+      "agent": "security-engineer",
+      "sha256": "d2097ee9774943041a1864cfe7e429cfff2deba73daff1dad8ab34cadcbe1778"
+    },
+    ".qwen/skills/mobile-engineer/SKILL.md": {
+      "agent": "mobile-engineer",
+      "sha256": "4c9c3efd173b06831184edece81b5059a06f7980e3cca3fdb175072a95f44946"
+    },
+    ".agent-kit/content/agents/n8n-automation.agent.md": {
+      "agent": "n8n-automation",
+      "sha256": "7c0109463bebd311ca872b4d33f05ff21c5b2b8af356d6f124985d6cd300fb79"
+    },
+    ".cursor/skills/software-architect/SKILL.md": {
+      "agent": "software-architect",
+      "sha256": "708a5d6af84e7f490029f0404b076578613523c76415e2d6bcbcb28cd5732ac6"
+    },
+    ".agent-kit/content/agents/vibecode.agent.md": {
+      "agent": "vibecode",
+      "sha256": "09cd121150855205459228d9822465b27419d01313e8b001157127164c9e158c"
+    },
+    ".qwen/skills/qa-test-engineer/SKILL.md": {
+      "agent": "qa-test-engineer",
+      "sha256": "43c67008e3d204ca9c9ab56be3b31f61014d2c02b496aea5639205979718b879"
+    },
+    ".kilocode/agents/marketing-writer.md": {
+      "agent": "marketing-writer",
+      "sha256": "b256a194b2897e6127ad52bc34193094f32b94423a24550c0ccccb9b0bea6655"
+    },
+    ".github/agents/security-engineer.agent.md": {
+      "agent": "security-engineer",
+      "sha256": "eeaf1c64dac7fd5f4e8c338bebd56c86ac25bf0f5534e208587ccf2744e2cfc4"
+    },
+    ".github/agents/dataops-engineer.agent.md": {
+      "agent": "dataops-engineer",
+      "sha256": "9880305085060e5de391ede136c964eb66704dd1c0ad9dccf1c7a595e3889c12"
+    },
+    ".agent-kit/content/stacks/machine-learning.md": {
+      "agent": "ml-engineer",
+      "sha256": "05fceba3d4b7464475fd2f85f9b309acf3ebfed691974b0a4f3b57f92b30a221"
+    },
+    ".kilocode/agents/product-delivery-manager.md": {
+      "agent": "product-delivery-manager",
+      "sha256": "36d9dafeac4771c77e226f39a02a252567c45506565e18a5f75aa12a0ae66a47"
+    },
+    ".kilocode/agents/audit-engineer.md": {
+      "agent": "audit-engineer",
+      "sha256": "fa5081271ca4bf1da19da316552b7ef791bf8e5a08bb0513ef42a275c3cf5086"
+    },
+    ".cursor/rules/devops-engineer.mdc": {
+      "agent": "devops-engineer",
+      "sha256": "33200ac5f2702ed304a942a7b295e545f392bcf365cf25fb0bc7e60ba040e61a"
+    },
+    ".cursor/rules/mobile-engineer.mdc": {
+      "agent": "mobile-engineer",
+      "sha256": "ec3371af3104ddf271d21dae2fa72aea8bec632c0f5fe2b5dc5510c8a265284c"
+    },
+    ".cursor/skills/security-engineer/SKILL.md": {
+      "agent": "security-engineer",
+      "sha256": "8d68be39e236e8e12259b87eb504cbb22e71b5299e8b1972818792c7af9448ae"
+    },
+    ".github/agents/data-architect.agent.md": {
+      "agent": "data-architect",
+      "sha256": "962c2ef4dc9cca0a65a5b09ede52f54fd0cb6d255e504dbb372984ccd21b4a97"
+    },
+    ".qwen/skills/video-specialist/SKILL.md": {
+      "agent": "video-specialist",
+      "sha256": "f6bbaf2e11f76f79fcc1912137d01b7bf9419c377916dd06abd448fe73c4af46"
+    },
+    ".cursor/rules/ai-designer.mdc": {
+      "agent": "ai-designer",
+      "sha256": "fd35f9f6d7b1544259d6e48ac090334c2b6df4bf03455b3441bc83a16c657000"
+    },
+    ".agent-kit/content/agents/data-architect.agent.md": {
+      "agent": "data-architect",
+      "sha256": "962c2ef4dc9cca0a65a5b09ede52f54fd0cb6d255e504dbb372984ccd21b4a97"
+    },
+    ".agent-kit/content/agents/ai-designer.agent.md": {
+      "agent": "ai-designer",
+      "sha256": "4226f4ad05e12848968d30797ebc414da6a5878bc2259ec76ea3809d4097f379"
+    },
+    ".qwen/skills/vibecode/SKILL.md": {
+      "agent": "vibecode",
+      "sha256": "a24144c3b4a1ca109b94a1b810327920598ec12a60ba55145ee0f0ec0e576a4f"
+    },
+    ".agent-kit/content/stacks/technical-writing.md": {
+      "agent": "technical-writer",
+      "sha256": "14f8a3703458d18e79a0ac2fdce5ddf7bef694c7479ef1cda1b53492d7aa99ea"
+    },
+    ".github/agents/pre-sales-architect.agent.md": {
+      "agent": "pre-sales-architect",
+      "sha256": "7765f8390a0963dd8c4f93ac2855c8eb448442f6c0c1ae486e8e639e8a324d03"
+    },
+    ".github/agents/data-engineer.agent.md": {
+      "agent": "data-engineer",
+      "sha256": "e048241dcf60253d4e15d4fb21044c07d73722687c96598f106c3b5c8e44a043"
+    },
+    ".agent-kit/content/agents/ml-engineer.agent.md": {
+      "agent": "ml-engineer",
+      "sha256": "7e95969bbb68a2b1e8f24e3241058721e2b802c028847e1560e7fedcdb4c4287"
+    },
+    ".agent-kit/content/agents/agentic-engineer.agent.md": {
+      "agent": "agentic-engineer",
+      "sha256": "cce06c4eaccb36eb74d4b8ebc2ca52979eff8ae9c2bc373126a421599b56bafa"
+    },
+    ".agent-kit/content/stacks/software-engineering.md": {
+      "agent": "software-engineer",
+      "sha256": "e2456fc457d50527465b45f6f467bf1b10e5e11b5e28c3620471029ef54b704d"
+    },
+    ".qwen/skills/devops-engineer/SKILL.md": {
+      "agent": "devops-engineer",
+      "sha256": "7b9b2a05ff6ee2d189d120a837e9980080a1f73b4b6bba5255eac943fa863b14"
+    },
+    ".github/agents/scout-architect.agent.md": {
+      "agent": "scout-architect",
+      "sha256": "16e086515fab4964adc4cc2c5850d3938ac4b74a6842eed8f13b4d44eeeaf82c"
+    },
+    ".qwen/skills/security-engineer/SKILL.md": {
+      "agent": "security-engineer",
+      "sha256": "7e18716547ca08ced5195d755766e636469b8095370e76151ce81956190a159f"
+    },
+    ".github/agents/mobile-engineer.agent.md": {
+      "agent": "mobile-engineer",
+      "sha256": "8c899d2d39f88caf4de8af1ded767cce2e760a12c5a86fb427f36253593078eb"
+    },
+    ".agent-kit/content/agents/infra-ops.agent.md": {
+      "agent": "infra-ops",
+      "sha256": "92efeff32b07f639bf8cb98af35e8b8f9fa93f6035a2e8f319cae5964ffaa2d7"
+    },
+    ".github/agents/agentic-engineer.agent.md": {
+      "agent": "agentic-engineer",
+      "sha256": "cce06c4eaccb36eb74d4b8ebc2ca52979eff8ae9c2bc373126a421599b56bafa"
+    },
+    ".kilocode/agents/n8n-automation.md": {
+      "agent": "n8n-automation",
+      "sha256": "36ceb5b4bab0264a966678fc54291b3022227d5236f8c407c68a8e9608040ddb"
+    },
+    ".agent-kit/content/agents/pre-sales-architect.agent.md": {
+      "agent": "pre-sales-architect",
+      "sha256": "7765f8390a0963dd8c4f93ac2855c8eb448442f6c0c1ae486e8e639e8a324d03"
+    },
+    ".antigravity/AGENTS.md": {
+      "artifact": "antigravity",
+      "sha256": "4714e1d50657eda7d7a5f85a81c6b1f903d32519b7a9fa6cd187d067e4f32c06"
+    },
+    ".clinerules/agent-kit.md": {
+      "artifact": "cline",
+      "sha256": "d21ba2da3bb9e6bf15cc22ae8ccc08525fe208c0bb08e4bd81eecbc943679a27"
+    },
+    ".agent-kit/content/stacks/transcription.md": {
+      "agent": "ml-engineer",
+      "sha256": "06e2bcd488b2304cc85e249197134735004e62d5ce8d6d6cb3404b777c29a70e"
+    }
+  }
+}

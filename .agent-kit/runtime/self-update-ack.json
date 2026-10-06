@@ -1,0 +1,7 @@
+{
+  "timestamp": "2026-10-04T12:39:20-03:00",
+  "release_id": "2026.10.02.44021d7",
+  "kit_sha": "44021d7",
+  "status": "acknowledged",
+  "notes": "Ritual de reinício de turno executado em 04/10/2026. Release 2026.10.02.44021d7 assimilada com base no governance-release.json e Core Rules em .antigravity/AGENTS.md."
+}
