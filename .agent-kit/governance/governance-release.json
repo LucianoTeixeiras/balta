@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "release_id": "2026.10.02.44021d7",
+  "published_at": "2026-10-02T01:22:47Z",
+  "requirements": [
+    {
+      "scope": "governance",
+      "level": "strict",
+      "sources": [
+        ".agent-kit/content/shared/core-rules.md"
+      ],
+      "sha256": "6769b1da0fb1abba8fec2a4336779b17555a6c4e6e79db127f5ee24dbc0d1c49",
+      "summary": "Regras de governança e isolamento"
+    },
+    {
+      "scope": "git",
+      "level": "strict",
+      "sources": [
+        ".agent-kit/content/shared/core-rules.md"
+      ],
+      "sha256": "6769b1da0fb1abba8fec2a4336779b17555a6c4e6e79db127f5ee24dbc0d1c49",
+      "summary": "Regras de branching e PR obrigatório"
+    },
+    {
+      "scope": "communication",
+      "level": "write",
+      "sources": [
+        ".agent-kit/content/shared/core-rules.md"
+      ],
+      "sha256": "6769b1da0fb1abba8fec2a4336779b17555a6c4e6e79db127f5ee24dbc0d1c49",
+      "summary": "Resolução de canal por evidência"
+    }
+  ]
+}

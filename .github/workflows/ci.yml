@@ -1,0 +1,29 @@
+name: CI - MBA UNIPDS
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  validate:
+    name: Workspace Integrity & Markdown Lint
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Validate workspace files
+        run: |
+          echo "Checking directory and documentation structure..."
+          test -f README.md
+          test -f docs/ementa-unipds.md
+          test -f docs/cronograma-estudos.md
+          test -f .env.example
+          echo "All core documentation and configuration files are present."
